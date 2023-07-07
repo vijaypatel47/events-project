@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.event-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.event-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3a4b63;
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.active-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  padding-left: 30px;
+}
+.active-para {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  margin-left: 20px;
+}

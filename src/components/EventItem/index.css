@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 10px;
+}
+.image {
+  height: 250px;
+  width: 350px;
+}
+.name {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.location {
+  color: #ffffff;
+  font-size: 20px;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  height: auto;
+  width: auto;
+}

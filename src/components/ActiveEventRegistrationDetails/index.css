@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.active-image {
+  height: 30vh;
+  width: 20vh;
+}
+.msg {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  height: auto;
+  width: auto;
+}
